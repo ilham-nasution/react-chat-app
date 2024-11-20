@@ -24,7 +24,7 @@ export default function ChatRoom({ user }: any) {
 
   return (
     <>
-      <div className="flex flex-col-reverse gap-6 p-4 overflow-auto h-[620px] bg-stone-50">
+      <div className="flex flex-col-reverse gap-6 p-4 overflow-auto h-[620px]">
         {messages &&
           messages.map((message) => (
             <ChatMessage key={message.id} message={message} user={user} />

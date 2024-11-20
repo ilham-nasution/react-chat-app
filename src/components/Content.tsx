@@ -10,7 +10,9 @@ const Content = () => {
   return (
     <>
       <Header user={user} />
-      {user ? <ChatRoom user={user} /> : <SignIn />}
+      <div className="h-[700px] bg-stone-50">
+        {user ? <ChatRoom user={user} /> : <SignIn />}
+      </div>
     </>
   );
 };
