@@ -1,6 +1,6 @@
 import SignOut from "./SignOut";
 
-const Header = ({ user }) => {
+const Header = ({ user }: any) => {
   return (
     <header className="shadow-lg px-4 bg-white">
       <div className="flex justify-between items-center">

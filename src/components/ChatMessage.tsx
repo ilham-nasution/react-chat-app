@@ -1,4 +1,4 @@
-export default function ChatMessage({ message, user }) {
+export default function ChatMessage({ message, user }: any) {
   const { text, uid, photoURL } = message;
   const isSender = uid === user.uid;
 
